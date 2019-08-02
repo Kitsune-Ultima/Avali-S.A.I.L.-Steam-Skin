@@ -1,0 +1,22 @@
+"resource/layout/layoutdebugdialog.layout"
+{
+	controls
+	{
+		wiki_link { controlname="URLLabel" labeltext="VGUI editor wiki page"  urltext="https://intranet.valvesoftware.com/wiki/index.php/VGUI_Editing" }
+	}
+	
+	styles
+	{
+		//0="image( x0, y0, x1, y1, graphics/Threshold/beta )"
+	}
+	
+	layout
+	{
+		place { control="containerlabel,fileurl" y=30 x=6 dir="right" align="top" spacing=10 margin=4 }
+		place { control="selectionlabel" y=48 x=6 dir="right" align="top" spacing=10 margin=4 }
+		
+		place { control="tabs" y=70 width="max" height="max" }
+		place { control="wiki_link" width=0 height=0}
+	}
+
+}

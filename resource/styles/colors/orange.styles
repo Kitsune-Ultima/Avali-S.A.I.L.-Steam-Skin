@@ -1,0 +1,23 @@
+"orange.styles"
+{
+	colors
+	{
+		Accent="255 128 0 255"
+		Accent.Hover="186 93 0 255"
+		Accent.Selected="192 96 25 255" 
+		Accent.Text="255 255 255 255" //Color of text on Accent color, usually white or black
+
+		AccentInv="156 78 0 255" //Complimentary color for disk usage
+		
+		//These are for the Colored Titlebar Option
+		TitleBar=Accent //TitleBar background
+		TitleBar.Focus="108 54 0 255" //For loss of focus
+		TitleBar.Accent=Accent.Hover //Colored buttons on/close to Titlebar
+		TitleBar.Accent.Hover=Accent.Selected //Hover states for colored buttons
+		Notification.Back="144 72 0 255"
+
+		//These are for the Window Border Option
+		Frame.Outline=Accent
+		Frame.Outline.Focus="250 125 0 255"
+	}
+}
