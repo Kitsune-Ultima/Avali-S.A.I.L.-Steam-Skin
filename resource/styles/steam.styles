@@ -6,19 +6,19 @@ steam.styles
   colors
   {
 	//Font Familys
-	basefont="Segoe UI" 
+	basefont="Segoe UI"
 	light="Segoe UI Light"
 	semilight="Segoe UI Semilight"
 	semibold="Segoe UI Semibold"
 	bold="Segoe UI Bold"
-	
+
 	//Standard Element/Text colors ********
 	//TODO: Some of these colors arent actually used, fix or remove
-	
-	Dark =  "14 14 14 255"
-	Neutral = "31 31 31 255"
-	Light = "43 43 43 255"
-	
+
+	Dark =  "13 6 0 255"
+	Neutral = "31 18 0 255"
+	Light = "44 22 0 255"
+
 	DefaultBackground=Neutral
 
 	DefaultText=white
@@ -27,10 +27,10 @@ steam.styles
 	DefaultText.Selected=Accent.Text
 	DefaultText.Back=Accent //For highlighted text
 	DefaultCursor=white
-		
+
 	Label.Text=DefaultText
 	SubLabel.Text="180 180 180 255" //Any label we want to have visual distinction, usually subheaders
-	
+
 	URL.Text=Accent
 	URL.Hover.Text=DefaultText.Hover
 
@@ -41,7 +41,7 @@ steam.styles
 	Page.Tab.Active.Hover=Page.Tab.Active
 	Page.Tab.Text=DefaultText
 	Page.Tab.Active.Text=Accent.Text
-	
+
 	List.Back=Dark
 	List.Header=Light
 	List.Header.Div=Neutral
@@ -52,7 +52,7 @@ steam.styles
 	List.Header.Text=DefaultText
 	List.Header.Text.Hover=DefaultText.Hover
 	List.Text.Disabled=DefaultText.Disabled
-	
+
 	Button.Back="51 51 51 255"
 	Button.Page.Back="51 51 51 255"
 	Button.Hover="74 74 74 255"
@@ -64,7 +64,7 @@ steam.styles
 	Button.Hover.Text=DefaultText
 	Button.Active.Text=Accent.Text
 	Button.Disabled.Text="109 109 109 255"
-	
+
 	Check.Outline="204 204 204 255"
 	Check.Outline.Hover=white
 	Check.Outline.Disabled="119 119 119 255"
@@ -72,14 +72,14 @@ steam.styles
 	Check.Text=DefaultText
 	Check.Text.Hover=DefaultText
 	Check.Disabled.Text=DefaultText.Disabled
-	
+
 	Radio.Outline="204 204 204 255"
 	Radio.Hover.Outline=white
 	Radio.Active=Accent
 	Radio.Text=DefaultText
 	Radio.Text.Hover=DefaultText
 	Radio.Disabled.Text=DefaultText.Disabled
-	
+
 	ComboBox.Back="17 17 17 255"
 	ComboBox.Hover=Light
 	ComboBox.Outline="119 119 119 255"
@@ -88,7 +88,7 @@ steam.styles
 	ComboBox.Disabled=Button.Back
 	ComboBox.Text=DefaultText
 	ComboBox.Disabled.Text="110 110 110 255"
-	
+
 	Scroll.Back="27 27 27 255"
 	Scroll.Bar.Back="73 73 73 255"
 	Scroll.Bar.Hover="118 118 118 255"
@@ -96,7 +96,7 @@ steam.styles
 	Scroll.Button.Back=Scroll.Back
 	Scroll.Button.Hover=Scroll.Bar.Hover
 	Scroll.Button.Active=Scroll.Bar.Active
-	
+
 	Menu.Back=ComboBox.Hover
 	Menu.Button.Hover="96 96 96 170"
 	Menu.Button.Active=Accent.Hover
@@ -106,9 +106,9 @@ steam.styles
 	Menu.Div="128 128 128 255"
 	Menu.Text=DefaultText
 	Menu.Disabled.Text=DefaultText.Disabled
-	
+
 	Progress.Back=Button.Hover
-	
+
 	TextBox.Back=ComboBox.Back
 	TextBox.Outline=ComboBox.Outline
 	TextBox.Outline.Hover=white
@@ -119,21 +119,21 @@ steam.styles
 	TextBox.Active.Text=black
 	TextBox.Disabled.Text=DefaultText.Disabled
 	TextBox.Active.Cursor=black
-	
+
 	//Specific Element colors *********
-	
+
 	//These are all in accent specific ini now
 	//TitleBar="8 8 8 255"
 	//TitleBar.Focus="8 8 8 255" //For loss of focus
 	//Notification.Back="31 31 31 255"
-	
+
 	TitleBar.Hover="70 70 70 100" //for buttons on titlebar
 	TitleBar.Active="70 70 70 200"
 	TitleBar.CloseButton="232 17 35 255" //Special colors for close X
 	TitleBar.CloseButton.Active="241 112 122 255"
 	Frame.Text="96 96 96 255"
 	Frame.Focus.Text=DefaultText
-	
+
 	Root.Header = DefaultBackground
 	Root.TabBar = Light
 	Root.LeftCol = Light //Left Column
@@ -143,22 +143,22 @@ steam.styles
 	Root.RightCol = DefaultBackground //Right column (When needed)
 	Root.Div = Menu.Div
 	Root.BackTransparent="14 14 14 170" //For details header/grid chrome
-	
+
 	Root.LeftCol.Text=DefaultText
 	Root.Label.Text=DefaultText
 	Root.Label.Hover.Text="180 180 180 255"
 	Root.SubLabel.Text="180 180 180 255"
 	Root.LeftCol.Disabled=DefaultText.Disabled
-	
+
 	Search.Back=Scroll.Back
 	Search.Text="130 130 130 255"
 	Search.Hover.Text="180 180 180 255"
 	Search.Active.Text=DefaultText
-	
+
 	Chat.Back = Root.Back
 	Chat.Popup = DefaultBackground
 	Chat.Div = Light
-	
+
 	//Games that are installed/running use "Installed.Text"
 	//Games that are uninstalled use "Uninstalled.Text"
 	//Games that are updating/have updates use "Updating.Text"
@@ -178,14 +178,14 @@ steam.styles
 	Syncing.Hover.Text=Updating.Hover.Text
 	Running.Text=Installed.Text
 	Running.Hover.Text=Installed.Hover.Text
-	
+
  }
-  
+
  styles
  {
 	downarrow
 	{
-		image="graphics/Threshold/icons/down"    
+		image="graphics/Threshold/icons/down"
 	}
 
 	downarrow:hover
@@ -195,21 +195,21 @@ steam.styles
 
 	uparrow
 	{
-		image="graphics/Threshold/icons/up"    
+		image="graphics/Threshold/icons/up"
 	}
-	
+
 	rightarrow
 	{
-		image="graphics/Threshold/icons/right" 
+		image="graphics/Threshold/icons/right"
 	}
-	
+
 	rightarrow:hover
 	{
-		image="graphics/Threshold/icons/right_hover"    
+		image="graphics/Threshold/icons/right_hover"
 	}
-		
+
 	Button
-	{     
+	{
 		font-family=basefont
 		minimum-height=30
 		padding-left=4
@@ -223,7 +223,7 @@ steam.styles
 		{
 		}
 	}
-	 
+
     "Page Button"
     {
 		bgcolor=Button.Page.Back
@@ -231,27 +231,27 @@ steam.styles
 		{
 		}
     }
-    
+
 	Button:hover
-    {   
+    {
   		textcolor=Button.Hover.Text
 		bgcolor=Button.Back
   		render
-		{     
+		{
 			// lines around
 			0="fill( x0, y0, x0+2, y1, Button.Hover)"
 			1="fill( x1-2, y0, x1, y1, Button.Hover)"
 			2="fill( x0, y0, x1, y0+2, Button.Hover)"
-			3="fill( x0, y1-2, x1, y1, Button.Hover)"			
+			3="fill( x0, y1-2, x1, y1, Button.Hover)"
 		}
     }
 
     "Page Button:hover"
-    {   
+    {
 		textcolor=Button.Hover.Text
 		bgcolor=Button.Page.Back
 		render
-		{     
+		{
 			// lines around
 			0="fill( x0, y0, x0+2, y1, Button.Page.Hover)"
 			1="fill( x1-2, y0, x1, y1, Button.Page.Hover)"
@@ -259,16 +259,16 @@ steam.styles
 			3="fill( x0, y1-2, x1, y1, Button.Page.Hover)"
 		}
     }
-    
+
     Button:focus
     {
 		textcolor=Button.Active.Text
 		bgcolor=Button.Active
 		render
-	    {		    
+	    {
 	    }
     }
-    
+
     "Page Button:focus"
     {
 		textcolor=Button.Active.Text
@@ -277,7 +277,7 @@ steam.styles
 		{
 		}
     }
-    
+
     Button:active // this is the left-mouse-currently-pressed state
 	{
 		textcolor=Button.Active.Text
@@ -286,7 +286,7 @@ steam.styles
 		{
 		}
     }
-    
+
     "Page Button:active"
     {
 		textcolor=Button.Active.Text
@@ -295,13 +295,13 @@ steam.styles
 		{
 		}
     }
-    
+
     Button:selected
     {
 		textcolor=Button.Active.Text
 		bgcolor=Button.Active
 		render
-		{     
+		{
 		}
     }
 
@@ -313,13 +313,13 @@ steam.styles
 		{
 		}
     }
-	
+
 	Button:selected:hover
     {
 		textcolor=Button.Active.Text
 		bgcolor=Button.Active
 		render
-		{     
+		{
 			// lines around
 			0="fill( x0, y0, x0+2, y1, Button.Active.Hover)"
 			1="fill( x1-2, y0, x1, y1, Button.Active.Hover)"
@@ -333,7 +333,7 @@ steam.styles
 		textcolor=Button.Active.Text
 		bgcolor=Button.Active
 		render
-		{     
+		{
 			// lines around
 			0="fill( x0, y0, x0+2, y1, Button.Active.Hover)"
 			1="fill( x1-2, y0, x1, y1, Button.Active.Hover)"
@@ -341,34 +341,34 @@ steam.styles
 			3="fill( x0, y1-2, x1, y1, Button.Active.Hover)"
 		}
     }
-    
+
     Button:disabled
     {
 		textcolor=Button.Disabled.Text
 		bgcolor=Button.Disabled
 		render
-		{        
+		{
 		}
-    }   
-    
+    }
+
     "Page Button:disabled"
-    {     
+    {
 		textcolor=Button.Disabled.Text
 		bgcolor=Button.Disabled
 		render
 		{
-		}   
+		}
     }
-       
+
     CFriendsListSectionAffordance //Group list header option dropdown button
-    {     
+    {
 		inset="0 0 0 0"
 		font-size=13 [$LINUX]
 		font-size=15
 		font-weight=400
 		textcolor=DefaultText
     }
-    
+
     CFriendsListSectionHeader
     {
 		bgcolor=none
@@ -383,7 +383,7 @@ steam.styles
 			0="fill( x0-2, y0, x1, y1, List.Header )"
 		}
     }
-            
+
     CFriendPanel
     {
 		inset="0 2 0 0"
@@ -414,7 +414,7 @@ steam.styles
 			3="fill(x0+18,y0+4,x0+20,y0+24,Check.Outline)"
 		}
     }
-  
+
     CheckButton:selected
     {
 		//image="graphics/Threshold/icons/check_sel"
@@ -424,11 +424,11 @@ steam.styles
 			1="image(x0+2,y0+6,x1,y1,graphics/Threshold/icons/check_sel1)"
 		}
     }
-	
+
 	CheckButton:hover
     {
 		textcolor=Check.Text.Hover
-		//image="graphics/Threshold/icons/check_hover" 
+		//image="graphics/Threshold/icons/check_hover"
 		render
 		{
 			0="fill(x0,y0+4,x0+2,y0+24,Check.Outline.Hover)"
@@ -437,7 +437,7 @@ steam.styles
 			3="fill(x0+18,y0+4,x0+20,y0+24,Check.Outline.Hover)"
 		}
     }
-	
+
 	CheckButton:selected:hover
     {
 		textcolor=Check.Text.Hover
@@ -452,7 +452,7 @@ steam.styles
 			5="fill(x0+18,y0+4,x0+20,y0+24,Check.Outline.Hover)"
 		}
     }
-    
+
     CheckButton:disabled
     {
 		textcolor=Check.Disabled.Text
@@ -465,7 +465,7 @@ steam.styles
 			3="fill(x0+18,y0+4,x0+20,y0+24,Check.Outline.Disabled)"
 		}
     }
-    
+
     CheckButton:selected:disabled
     {
 		textcolor=Check.Disabled.Text
@@ -490,7 +490,7 @@ steam.styles
 		bgcolor=none
 		image="graphics/Threshold/icons/check_ind"
 	}
-	
+
 	IndeterminateCheckButton:hover
 	{
 		textcolor=Check.Text.Hover
@@ -505,50 +505,50 @@ steam.styles
         render{}
 		render_bg {
 		}
-    } 
-    
+    }
+
     CheckButtonList:scrollbar
     {
-    } 
-    
+    }
+
     "Page CheckButtonList"
     {
 		inset="0 1 1 1"
         textcolor=List.Text
         bgcolor=List.Page
-        render	{      	}  
+        render	{      	}
 		render_bg
         {
       	}
     }
-    
+
     "Page CheckButtonList:scrollbar"
     {
    	}
-    
+
     "CheckbuttonList Checkbutton"
     {
 		textcolor=Check.Text
 	}
-	
+
 	"CheckbuttonList Checkbutton:hover"
     {
 		textcolor=Check.Text.Hover
-	} 
-    
+	}
+
     "CheckbuttonList Checkbutton:focus"
     {
 		textcolor=Check.Text
-	} 
-	
+	}
+
 	"CheckbuttonList Checkbutton:selected"
     {
 		render_bg
 		{
-			
-		}	
-	} 
-    
+
+		}
+	}
+
     ComboBox
     {
 		inset="3 0 0 0"
@@ -561,7 +561,7 @@ steam.styles
 		selectedbgcolor=DefaultText.Back
 		bgcolor=ComboBox.Back
 		render
-		{     
+		{
 			// lines around
 			0="fill(x0, y0, x0+2, y1, ComboBox.Outline)" //left
 			1="fill(x1-2, y0, x1, y1, ComboBox.Outline)" //right
@@ -569,12 +569,12 @@ steam.styles
 			3="fill(x0, y1-2, x1, y1, ComboBox.Outline)" //bottom
 		}
     }
-    
+
     ComboBox:hover
     {
 		bgcolor=ComboBox.Back
 		render
-		{     
+		{
 			// lines around
 			0="fill(x0, y0, x0+2, y1, ComboBox.Outline.Hover)" //left
 			1="fill(x1-2, y0, x1, y1, ComboBox.Outline.Hover)" //right
@@ -582,27 +582,27 @@ steam.styles
 			3="fill(x0, y1-2, x1, y1, ComboBox.Outline.Hover)" //bottom
 		}
     }
-    
+
     ComboBoxButton
-    {      
+    {
 		bgcolor=none
 		textcolor=none
 		render{}
-		render_bg 
+		render_bg
 		{
 			0="image(x0+6,y0+10,x1,y1,graphics/Threshold/icons/down)"
 		}
     }
-    
+
     Divider
     {
 		bgcolor="none"
 		render
 		{
-			0="fill( x0, y1 - 1, x1, y1, Menu.Div )"     
+			0="fill( x0, y1 - 1, x1, y1, Menu.Div )"
 		}
     }
-    
+
     Frame
     {
 		bgcolor="DefaultBackground"
@@ -612,8 +612,8 @@ steam.styles
 			2="fill(x1-1, y0, x1, y1, Frame.Outline.Focus)"
 			3="fill(x0, y1-1, x1, y1, Frame.Outline.Focus)"
 		}
-    } 
-    
+    }
+
     Frame:FrameFocus
     {
 		render{
@@ -622,38 +622,38 @@ steam.styles
 			2="fill(x1-1, y0, x1, y1, Frame.Outline)"
 			3="fill(x0, y1-1, x1, y1, Frame.Outline)"
 		}
-    } 
-    
+    }
+
     FrameBRGripPanel
     {
 		//image=graphics/resizer
     }
-    
+
     FrameBRGripPanel:hover
     {
 		//image=graphics/resizer_over
     }
-    
+
     FrameMinimizeButton
 	{
 		render_bg {}
 		inset="12 11 0 0"
 		image="graphics/Threshold/window_controls/min_focus"
 	}
-	
+
 	FrameMinimizeButton:framefocus
-	{  
+	{
 		image="graphics/Threshold/window_controls/min"
 	}
-	
+
 	FrameMinimizeButton:hover
-	{  
+	{
 		image="graphics/Threshold/window_controls/min"
 		bgcolor="TitleBar.Hover"
 	}
-	
+
 	FrameMinimizeButton:active
-	{  
+	{
 		bgcolor="TitleBar.Active"
 	}
 
@@ -663,18 +663,18 @@ steam.styles
 		inset="12 11 0 0"
 		image="graphics/Threshold/window_controls/max_focus"
 	}
-	
+
 	FrameMaximizeButton:framefocus
 	{
 		image="graphics/Threshold/window_controls/max"
 	}
-	
+
 	FrameMaximizeButton:hover
 	{
 		image="graphics/Threshold/window_controls/max"
 		bgcolor="TitleBar.Hover"
 	}
-	
+
 	FrameMaximizeButton:active
 	{
 		bgcolor="TitleBar.Active"
@@ -692,7 +692,7 @@ steam.styles
 	{
 		image="graphics/Threshold/window_controls/restore"
 	}
-	
+
 	FrameRestoreButton:hover
 	{
 		image="graphics/Threshold/window_controls/restore"
@@ -710,7 +710,7 @@ steam.styles
 		inset="12 11 0 0"
 		image="graphics/Threshold/window_controls/close_focus"
 	}
-	
+
 	FrameCloseButton:framefocus
 	{
 		image="graphics/Threshold/window_controls/close"
@@ -730,9 +730,9 @@ steam.styles
 
 	FrameCloseButton:disabled
 	{
-		image="graphics/Threshold/window_controls/close" 
+		image="graphics/Threshold/window_controls/close"
 	}
-	
+
 
     FrameTitle
     {
@@ -750,7 +750,7 @@ steam.styles
 		}
     }
 
-    
+
     FrameTitle:framefocus
     {
 		textcolor=Frame.Focus.Text
@@ -759,8 +759,8 @@ steam.styles
 		{
 		}
     }
-    
-   
+
+
 	"CFriendsDialog SectionedListPanelInterior"
 	{
 		bgcolor=none
@@ -772,11 +772,11 @@ steam.styles
 		textcolor=List.Text
 		selectedtextcolor=DefaultText.Selected
 		selectedbgcolor=DefaultText.Back
-		shadowtextcolor=List.Text.Disabled	// the color of disabled line items		
+		shadowtextcolor=List.Text.Disabled	// the color of disabled line items
 		render{	}
-		render_bg { 
+		render_bg {
 		}
-	}	
+	}
 
     GraphPanel //XXX:Pretty sure this isnt even used anymore
     {
@@ -785,17 +785,17 @@ steam.styles
 		inset="0 -3 0 0"
 		render_bg { }
     }
-    
+
     HTML
     {
 		bgcolor="almostblack"
 		//inset="2 2 2 2"
-		render_bg 
+		render_bg
 		{
 	    }
-     
+
     }
-    
+
     Label
 	{
 		textcolor=Label.Text
@@ -806,7 +806,7 @@ steam.styles
 		font-size=15
 		font-weight=400
  	}
-   
+
     ListPanel
     {
 		bgcolor=List.Back
@@ -820,12 +820,12 @@ steam.styles
 		shadowtextcolor=List.Text.Disabled	// the color of disabled line items
 		padding-left=10
 		inset="0 0 0 0"
-		render{}       
-		render_bg 
+		render{}
+		render_bg
 		{
 		}
 	}
-      
+
     "Page ListPanel"
 	{
 		font-family=basefont
@@ -842,7 +842,7 @@ steam.styles
 		{
 		}
 	}
-    
+
     "CGamesListPanel"
 	{
 		bgcolor=Root.Back
@@ -859,7 +859,7 @@ steam.styles
 		render_bg {
         }
     }
-  
+
     "GameItem_Uninstalled"
     {
 			textcolor=Uninstalled.Text
@@ -870,7 +870,7 @@ steam.styles
 			textcolor=Uninstalled.Hover.Text
 			selectedtextcolor=Accent.Text
 		}
- 
+
     "GameItem_Installed"
     {
 			textcolor=Installed.Text
@@ -892,7 +892,7 @@ steam.styles
       textcolor=Running.Hover.Text
       selectedtextcolor=Accent.Text
     }
-    
+
     "GameItem_Shortcut"
     {
 		textcolor=Shortcut.Text
@@ -903,7 +903,7 @@ steam.styles
         textcolor=Shortcut.Hover.Text
         selectedtextcolor=Accent.Text
     }
-	
+
     "GameItem_Mod"
     {
 		textcolor=Mod.Text
@@ -925,7 +925,7 @@ steam.styles
     	textcolor=Updating.Hover.Text
     	selectedtextcolor=Accent.Text
     }
-    
+
     "GameItem_Decrypting"
     {
     	textcolor=Decrypting.Text
@@ -936,7 +936,7 @@ steam.styles
     	textcolor=Decrypting.Hover.Text
     	selectedtextcolor=Accent.Text
     }
-    
+
     "GameItem_Syncing"
     {
     	textcolor=Syncing.Text
@@ -947,7 +947,7 @@ steam.styles
     	textcolor=Syncing.Hover.Text
     	selectedtextcolor=Accent.Text
     }
-    
+
     "GameColumn_BigText"
 	{
 		font-family=basefont
@@ -956,7 +956,7 @@ steam.styles
 		font-weight=700
 		textcolor=DefaultText
     }
-    
+
     ListPanelCheckBox
     {
 		font-family=basefont
@@ -967,35 +967,35 @@ steam.styles
 		image="graphics/Threshold/icons/check"
 		inset="0 0 0 0"
 		render{}
-    }   
+    }
 
     ListPanelCheckBox:selected
     {
-		image="graphics/Threshold/icons/check_sel"   
+		image="graphics/Threshold/icons/check_sel"
     }
 
 	ListPanelCheckBox:focus
     {
-		image="graphics/Threshold/icons/check" 
+		image="graphics/Threshold/icons/check"
     }
 
     ListPanelCheckBox:selected:focus
     {
 		image="graphics/Threshold/icons/check_sel"
     }
-    
+
     ListPanelCheckBox:disabled
     {
 		textcolor=Check.Disabled.Text
 		image="graphics/Threshold/icons/check_dis"
     }
-    
+
     ListPanelCheckBox:disabled:select
     {
 		textcolor=Check.Disabled.Text
 		image="graphics/Threshold/icons/check_sel_dis"
     }
-    
+
     "ListPanelColumnheader ListPanelCheckBox"
     {
 		font-family=basefont
@@ -1005,14 +1005,14 @@ steam.styles
 		font-weight=400
 		textcolor=Check.Text
 		image="graphics/Threshold/icons/check_sm"
-		inset="4 0 0 0"  
+		inset="4 0 0 0"
 		}
-     
+
 	"ListPanelColumnHeader ListPanelCheckBox:selected"
     {
-		image="graphics/Threshold/icons/check_sm_sel"  
+		image="graphics/Threshold/icons/check_sm_sel"
     }
-	
+
 	"ListPanelColumnheader ListPanelCheckBox:focus"
     {
 		image="graphics/Threshold/icons/check_sm"
@@ -1022,7 +1022,7 @@ steam.styles
     {
 		image="graphics/Threshold/icons/check_sm_sel"
     }
-    
+
     ListPanelColumnheader
     {
 		font-family=basefont
@@ -1034,24 +1034,24 @@ steam.styles
 		bgcolor=List.Header
 		inset="0 0 0 0"
 		render={}
-		render_bg    
+		render_bg
 		{
 		}
 	}
-    
+
     ListPanelColumnHeader:hover
     {
 		textcolor=List.Header.Text.Hover
     }
-	
+
 	"Page ListPanelColumnHeader"
 	{
 		bgcolor=List.Page.Header
-		render_bg    
+		render_bg
 		{
-		} 
+		}
 	}
-      
+
 	"Csteamrootdialog ListPanelColumnheader"
     {
 		font-family=basefont
@@ -1061,46 +1061,46 @@ steam.styles
 		textcolor=List.Header.Text
 		bgcolor=List.Header
 		inset="0 0 0 0"
-		
-		render_bg    
+
+		render_bg
 		{
-		}   
+		}
 	}
 
-   
+
     "Csteamrootdialog ListPanelColumnHeader:hover"
     {
 		textcolor=List.Header.Text.Hover
     }
-    
+
    	"Csteamrootdialog ListPanelSectionCollapser"
 	{
 		inset = "0 1 0 0"
 		bgcolor=List.Header
 		render{}
 	}
-	
+
 	"CGamesPage_Mini ListPanelSectionCollapser"
 	{
 		inset = "5 1 0 0"
 		bgcolor=List.Header
 		render{}
 	}
-    
 
- 
-	ListPanelColumnSelectButton // the games list column chooser  
+
+
+	ListPanelColumnSelectButton // the games list column chooser
 	{
         inset="-3 3 0 0"
 		bgcolor=List.Header
         render
         {
 			0="image( x0 + 5, y0 + 4, x1, y1, graphics/Threshold/icons/plus )"
-        }   
+        }
         render_bg {
         }
 	}
-    
+
 	ListPanelColumnSelectButton:hover
 	{
         render
@@ -1116,110 +1116,110 @@ steam.styles
         }
 	}
 
-	"CGamesListPanel ListPanelColumnSelectButton"   
+	"CGamesListPanel ListPanelColumnSelectButton"
 	{
         inset="0 0 0 0"
 		bgcolor=List.Header
         render
         {
 			0="image( x0+2, y0+2, x1, y1, graphics/Threshold/icons/plus )"
-        }   
+        }
         render_bg {
         }
 	}
-	"CGamesListPanel ListPanelColumnSelectButton:hover"   
+	"CGamesListPanel ListPanelColumnSelectButton:hover"
 	{
         render
         {
 			0="image( x0+2, y0+2, x1, y1, graphics/Threshold/icons/plus_hover )"
-        }   
+        }
 	}
-	"CGamesListPanel ListPanelColumnSelectButton:selected"   
+	"CGamesListPanel ListPanelColumnSelectButton:selected"
 	{
         render
         {
 			0="image( x0+2, y0+2, x1, y1, graphics/Threshold/icons/plus )"
-        }  
+        }
 	}
-   
+
     ListPanelDragger
 	{
 		bgcolor="none"
-		render 
+		render
 		{
 			//fill makes dragger visible
 			0="fill( x0, y0, x0 + 1, y1 - 1, List.Header.Div )"
 		}
     }
-	
+
 	"Page ListPanelDragger"
 	{
 		bgcolor="none"
-		render 
+		render
 		{
 			//fill makes dragger visible
 			0="fill( x0, y0, x0 + 1, y1 - 1, List.Page.Header.Div )"
 		}
     }
-    
+
     ListPanelInterior
-    {     
+    {
 		inset="0 0 0 0"
 		padding-left=5
 		font-size=13 [$LINUX]
 		font-size=15
 		textcolor=List.Text
-		bgcolor="none" 
+		bgcolor="none"
 		render
-		{				
+		{
 
 		}
-		render_bg 
-		{				
+		render_bg
+		{
 
 		}
-    } 
-    
+    }
+
     ListPanelInterior:scrollbar
-    {     
+    {
 
-    } 
+    }
 
 	"CSteamRootDialog ListPanel"
 	{
-		
+
 	}
-    
+
      "Csteamrootdialog ListPanelInterior"
     {
 		bgcolor=Root.Back
-		render_bg 
+		render_bg
 		{
 		}
 	}
-	
+
 	"Csteamrootdialog ListPanelInterior:scrollbar"
-    {     
+    {
 		render
 		{
 		}
 	}
-	
+
 	"Page ListPanelInterior"
 	{
 		bgcolor=List.Page
-		render_bg 
+		render_bg
 		{
 		}
 	}
-	
+
 	"Page ListPanelInterior:scrollbar"
 	{
 
 	}
-      
+
     ListPanelSectionHeader
-    {     
+    {
 		inset="5 0 0 0"
 		textcolor=List.Header.Text
 		minimum-height=30
@@ -1228,17 +1228,17 @@ steam.styles
 		bgcolor=List.Header
 		render_bg
 		{
-		}    
-    } 
-	
+		}
+    }
+
 	"Csteamrootdialog ListPanelSectionHeader"
     {
 		bgcolor=List.Header
 		render_bg
 		{
-		}    
+		}
     }
-    
+
 	"ListPanel RichText"
 	{
 		textcolor=TextBox.Hover.Text
@@ -1247,10 +1247,10 @@ steam.styles
 		font-size=15
 		bgcolor=none
 		render{}
-		render_bg {} 
+		render_bg {}
 	}
 
-	"ListPanel RichText url" 
+	"ListPanel RichText url"
 	{
 		font-size=13 [$LINUX]
 		font-size=15
@@ -1262,33 +1262,33 @@ steam.styles
 
     "ListPanel RichTextInterior"
     {
-		render_bg {} 
+		render_bg {}
 		bgcolor=none
     }
-    
+
     ListPanelSectionCollapser
     {
 		bgcolor=none
 		render_bg {}
-		image="graphics/Threshold/icons/right" 
+		image="graphics/Threshold/icons/right"
 		inset="0 0 0 0"
     }
-    
+
     ListPanelSectionCollapser:hover
     {
-		image="graphics/Threshold/icons/right_hover" 
+		image="graphics/Threshold/icons/right_hover"
     }
-    
+
     ListPanelSectionCollapser:selected
     {
-		image="graphics/Threshold/icons/down" 
+		image="graphics/Threshold/icons/down"
     }
-    
+
     ListPanelSectionCollapser:selected:hover
     {
-		image="graphics/Threshold/icons/down_hover" 
+		image="graphics/Threshold/icons/down_hover"
     }
-    
+
 	MainNav
     {
 		textcolor=DefaultText
@@ -1306,7 +1306,7 @@ steam.styles
 		bgcolor=Menu.Back
 		padding-right=4
 		inset="2 2 2 2"
-      
+
 		render_bg
 		{
 			0="fill(x0, y0, x0+1, y1, Menu.Outline)" //left
@@ -1314,21 +1314,21 @@ steam.styles
 			2="fill(x0, y0, x1, y0+1, Menu.Outline)" //top
 			3="fill(x0, y1-1, x1, y1, Menu.Outline)" //bottom
 		}
-      
+
 		render {}
     }
-      
+
     MenuBar
     {
 		bgcolor=none
     }
-    
+
     "Page MenuBar"
     {
 		bgcolor=none
     }
-    
-	"MenuBar MenuButton" 
+
+	"MenuBar MenuButton"
 	{
 		textcolor="none"
 		inset="0 0 0 0"
@@ -1337,22 +1337,22 @@ steam.styles
 		}
 	}
 
- 	"MenuBar MenuButton:frameFocus" 
+ 	"MenuBar MenuButton:frameFocus"
 	{
 		render{
 			0="image(x0+17,y0+10,x1,y1,graphics/Threshold/menu)"
 		}
 	}
-		
-	"MenuBar MenuButton:hover" 
+
+	"MenuBar MenuButton:hover"
 	{
 		textcolor="none"
 		bgcolor=TitleBar.Hover
 		render_bg {
 		}
 	}
-	
-	"MenuBar MenuButton:selected" 
+
+	"MenuBar MenuButton:selected"
 	{
 		textcolor="none"
 		bgcolor=TitleBar.Accent
@@ -1360,7 +1360,7 @@ steam.styles
 		}
 
 	}
-	
+
 	MenuButton //XXX: where is this used?
     {
 		font-family=basefont
@@ -1369,18 +1369,18 @@ steam.styles
 		textcolor=DefaultText
 		bgcolor="none"
 		render_bg {}
-    }  
-   
+    }
+
 	MenuButton:hover
     {
 		//textcolor="white"
     }
-    
+
 	MenuButton:selected
     {
 		//textcolor="white"
     }
-        
+
 	MenuItem
     {
 		font-family=basefont
@@ -1393,31 +1393,31 @@ steam.styles
 		bgcolor=none
 		render_bg {}
     }
-   
+
 	MenuItem:selected
     {
 		bgcolor=Menu.Hover
     }
-	
+
 	MenuItem:hover
     {
 		bgcolor=Menu.Hover
     }
-    
+
     MenuItem:disabled
     {
 		textcolor=Menu.Disabled.Text
     }
-    
+
     MenuItem:disabled:hover
     {
 		textcolor=Menu.Disabled.Text
 		bgcolor=Menu.Hover
     }
-   
+
     MenuSeparator
     {
-		inset="-4 0 0 0"	
+		inset="-4 0 0 0"
 		textcolor="none"
 		bgcolor=none
 		render_bg{
@@ -1438,7 +1438,7 @@ steam.styles
 		render {}
     }
 
-    
+
     Page
     {
 		bgcolor="none"
@@ -1454,12 +1454,12 @@ steam.styles
 		bgcolor="none"
 		render_bg {}
     }
-    
+
     "Page RadioButtonList"
     {
 		bgcolor="List.Page"
     }
-      
+
 	PageTab
     {
 		minimum-height=0
@@ -1476,7 +1476,7 @@ steam.styles
 		}
     }
 
-    
+
     PageTab:selected
     {
 		textcolor=Page.Tab.Active.Text
@@ -1486,7 +1486,7 @@ steam.styles
 		}
     }
 
-    
+
  	PageTab:hover
     {
 		textcolor=Page.Tab.Text
@@ -1495,7 +1495,7 @@ steam.styles
 		{
 		}
     }
-  
+
     PageTab:selected:hover
     {
 		textcolor=Page.Tab.Active.Text
@@ -1528,9 +1528,9 @@ steam.styles
 		render_bg{}
 		image="graphics/Threshold/icons/tiny_x_hover"
     }
-    
+
     Panel
-	{ 
+	{
 		font-family=basefont
 		font-size=13 [$LINUX]
 		font-size=15
@@ -1538,18 +1538,18 @@ steam.styles
 		textcolor=DefaultText
 		bgcolor="none"
 	}
-    
+
 	ProgressBox //Legend has fortold that this is the loading frame
 	{
-	
+
 	}
-	
+
 	"ProgressBox ProgressBar"
 	{
 		textcolor=none
 		bgcolor=none
 	}
-	
+
     ProgressBar
     {
 		textcolor="Accent"
@@ -1561,9 +1561,9 @@ steam.styles
 			//2="fill( x0 + 1, y1 - 2, x1 - 1, y1 - 1, ButtonBorder )"  // bottom
 			//3="fill( x0 + 1, y0 + 1, x0 + 2, y1 - 1, ButtonBorder )"  // left
 			//4="fill( x1 - 2, y0 + 1, x1 - 1, y1 - 1, ButtonBorder )"  // right
-		}   
+		}
 	}
-    
+
 	"Page ProgressBar"
     {
 		textcolor="Accent"
@@ -1574,20 +1574,20 @@ steam.styles
 			//1="fill( x0 + 1, y0 + 1, x1 - 1, y0 + 2, ButtonBorder )"  // top
 			//2="fill( x0 + 1, y1 - 2, x1 - 1, y1 - 1, ButtonBorder )"  // bottom
 			//3="fill( x0 + 1, y0 + 1, x0 + 2, y1 - 1, ButtonBorder )"  // left
-			//4="fill( x1 - 2, y0 + 1, x1 - 1, y1 - 1, ButtonBorder )"  // right  
-		}   
+			//4="fill( x1 - 2, y0 + 1, x1 - 1, y1 - 1, ButtonBorder )"  // right
+		}
     }
-	
+
     PropertyPage
     {
 		bgcolor="none"
     }
-    
+
     "CFriendsDialog PropertySheet"
     {
 		bgcolor="none"
     }
-    
+
     RadioButton
     {
 		font-family=basefont
@@ -1598,31 +1598,31 @@ steam.styles
 		render_bg {}
 		image="graphics/Threshold/icons/rad"
 		bgcolor=none
-    } 
-	
+    }
+
 	RadioButton:hover
     {
 		textcolor=Radio.Text.Hover
 		image="graphics/Threshold/icons/rad_hover"
-    }     
-  
+    }
+
     RadioButton:selected
     {
-		image="graphics/Threshold/icons/rad_sel"  
+		image="graphics/Threshold/icons/rad_sel"
     }
-	
+
 	RadioButton:selected:hover //Since selected radio buttons cant be toggled, only change the text color
     {
 		textcolor=Radio.Text.Hover
-		image="graphics/Threshold/icons/rad_sel"  
+		image="graphics/Threshold/icons/rad_sel"
     }
-    
+
     RadioButton:focus
     {
 		textcolor=Radio.Text
 		image="graphics/Threshold/icons/rad"
     }
-	
+
 	RadioButton:focus:hover
     {
 		textcolor=Radio.Text.Hover
@@ -1631,30 +1631,30 @@ steam.styles
 
     RadioButton:selected:focus
     {
-		textcolor=Radio.Text  
+		textcolor=Radio.Text
 		image="graphics/Threshold/icons/rad_sel"
     }
-	
+
 	RadioButton:selected:focus:hover
     {
-		textcolor=Radio.Text.Hover  
+		textcolor=Radio.Text.Hover
 		image="graphics/Threshold/icons/rad_sel"
     }
-    
+
     RadioButtonList
     {
 		bgcolor=List.Back
 		inset="-2 0 0 0"
 		render_bg
 		{
-		}     
+		}
     }
-        
+
     RichText
     {
 		textcolor=TextBox.Hover.Text
 		selectedtextcolor=DefaultText.Selected
-		selectedbgcolor=DefaultText.Back	
+		selectedbgcolor=DefaultText.Back
 		font-family=basefont
 		font-size=13 [$LINUX]
 		font-size=15
@@ -1669,16 +1669,16 @@ steam.styles
 			//1="fill( x0, y1 - 1, x1, y1, TextBox.Outline )"  // bottom
 			//2="fill( x0, y0, x0 + 1, y1, TextBox.Outline )"  // left
 			//3="fill( x1 - 1, y0, x1, y1, TextBox.Outline )"  // right
-		}     
+		}
     }
-         
-    RichTextInterior 
+
+    RichTextInterior
 	{
 		bgcolor=none
     }
-    
+
 	// style of links in a rich text control
-	
+
 	"RichText url"
 	{
 		font-size=13 [$LINUX]
@@ -1688,12 +1688,12 @@ steam.styles
 		selectedbgcolor=DefaultText.Back
 		font-style=underline
 	}
-	
+
 	"RichText url:hover"
 	{
 		textcolor=URL.Hover.Text
 	}
-	
+
 	// style of bold text in a rich text control
 	"RichText bold"
 	{
@@ -1701,7 +1701,7 @@ steam.styles
 		font-size=15
 		font-weight=1000
 	}
-	
+
 	"RichText emphasis"
 	{
 		font-size=13 [$LINUX]
@@ -1714,7 +1714,7 @@ steam.styles
 		minimum-height=0
 		inset="0 0 0 0"
 	}
-    
+
     ScrollBarButton.up
     {
 		bgcolor=Scroll.Button.Back
@@ -1725,9 +1725,9 @@ steam.styles
 		render
 		{
 		}
-		
+
     }
-    
+
     ScrollBarButton.up:hover
     {
 		bgcolor=Scroll.Button.Hover
@@ -1735,7 +1735,7 @@ steam.styles
 		{
 		}
     }
-    
+
     ScrollBarButton.up:active
     {
 		bgcolor=Scroll.Button.Active
@@ -1752,7 +1752,7 @@ steam.styles
 		{
 		}
     }
-	
+
     ScrollBarButton.down
 	{
 		bgcolor=Scroll.Button.Back
@@ -1764,7 +1764,7 @@ steam.styles
 		{
 		}
     }
-    
+
     ScrollBarButton.down:hover
 	{
 		bgcolor=Scroll.Button.Hover
@@ -1772,7 +1772,7 @@ steam.styles
 		{
 		}
     }
-    
+
     ScrollBarButton.down:active
 	{
 		bgcolor=Scroll.Button.Active
@@ -1781,8 +1781,8 @@ steam.styles
 		{
 		}
     }
-    
-    
+
+
     ScrollBarButton.down:disabled
 	{
 		bgcolor=Scroll.Button.Disabled
@@ -1790,7 +1790,7 @@ steam.styles
 		{
 		}
     }
-    
+
     ScrollBarButton.left
     {
 		bgcolor=Scroll.Button.Back
@@ -1802,7 +1802,7 @@ steam.styles
 		{
 		}
     }
-    
+
     ScrollBarButton.left:hover
     {
 		bgcolor=Scroll.Button.Hover
@@ -1810,7 +1810,7 @@ steam.styles
 		{
 	    }
     }
-		
+
 		ScrollBarButton.left:active
 		{
 			bgcolor=Scroll.Button.Active
@@ -1819,7 +1819,7 @@ steam.styles
 			{
 			}
 		}
-        
+
     ScrollBarButton.right
     {
 		bgcolor=Scroll.Button.Back
@@ -1831,7 +1831,7 @@ steam.styles
 		{
 	    }
     }
-        
+
     ScrollBarButton.right:hover
     {
 		bgcolor=Scroll.Button.Hover
@@ -1848,7 +1848,7 @@ steam.styles
 			{
 			}
 		}
-    
+
     ScrollBarHandle  //vertical scrollbar thumb
     {
 		bgcolor=Scroll.Bar.Back
@@ -1857,49 +1857,49 @@ steam.styles
 		{
 		}
     }
-       
+
     "ScrollBarHandle:hover"
     {
 		bgcolor=Scroll.Bar.Hover
-		render_bg 
+		render_bg
 		{
 		}
     }
-    
+
     "ScrollBarHandle:active"
     {
 		bgcolor=Scroll.Bar.Active
-		render_bg 
+		render_bg
 		{
 		}
     }
-    
 
- 
+
+
     "SliderHoriz"  //horizontal scrollbar thumb
     {
 		bgcolor=Scroll.Bar.Back
 		minimum-height=0
-		render 
+		render
 		{
 		}
     }
-    
+
     "SliderHoriz:hover"
     {
 		bgcolor=Scroll.Bar.Hover
-		render 
-      	{	
+		render
+      	{
 		}
     }
-    
+
     "SliderHoriz:active"
     {
 		bgcolor=Scroll.Bar.Active
       	render {
 		}
     }
-    
+
     ScrollBarSlider // gutter
     {
 		bgcolor=Scroll.Back
@@ -1908,20 +1908,20 @@ steam.styles
 		{
 		}
     }
-    
+
     ScrollBarSliderHoriz // gutter
     {
 		bgcolor=Scroll.Back
 		render{ }
 		render_bg { }
     }
-    
-    ScrollBarSlider:disabled 
+
+    ScrollBarSlider:disabled
     {
 		bgcolor="none"
 		render_bg {}
     }
-    
+
     "ScrollBar SliderHoriz" // gutter
     {
 		bgcolor=Scroll.Back
@@ -1939,8 +1939,8 @@ steam.styles
 		render_bg {
 		}
 	}
-	
-	"HTML ScrollBarSlider.Horizontal" 
+
+	"HTML ScrollBarSlider.Horizontal"
 	{
 		bgcolor=Scroll.Back
 		render_bg {
@@ -1955,7 +1955,7 @@ steam.styles
 		{
 		}
 	}
- 
+
     SectionedListPanel
     {
 		bgcolor=List.Back
@@ -1966,15 +1966,15 @@ steam.styles
 		textcolor=List.Text
 		selectedtextcolor=DefaultText.Selected
 		selectedbgcolor=DefaultText.Back
-		inset="1 -1 1 1"  
+		inset="1 -1 1 1"
 		render
 		{
 		}
-		render_bg 
+		render_bg
 		{
-		}    
-    }  
-    
+		}
+    }
+
     "CFriendsDialog SectionedListPanel"
     {
 		bgcolor=DefaultBackground
@@ -1986,24 +1986,24 @@ steam.styles
 		selectedtextcolor=DefaultText.Selected
 		selectedbgcolor=DefaultText.Back
 		render { }
-		render_bg 
-		{  		
-		}    
+		render_bg
+		{
+		}
     }
-    
+
     SectionedlistpanelCollapser
     {
-		render_bg 
+		render_bg
 		{
 		}
 		bgcolor=List.Header
 		image="graphics/Threshold/icons/right"
 		inset="6 0 0 0"
-    } 
-	
+    }
+
 	"CFriendsDialog SectionedlistpanelCollapser"
     {
-		render_bg 
+		render_bg
 		{
 		}
 		render{}
@@ -2011,38 +2011,38 @@ steam.styles
 		minimum-height=0
 		image="graphics/Threshold/icons/right"
 		inset="6 0 0 0"
-    } 
-    
+    }
+
     SectionedListPanelCollapser:hover
     {
 		image="graphics/Threshold/icons/right_hover"
     }
-	
+
 	"CFriendsDialog SectionedListPanelCollapser:hover"
     {
 		image="graphics/Threshold/icons/right_hover"
     }
-    
+
     SectionedListPanelCollapser:selected
     {
 		image="graphics/Threshold/icons/down"
     }
-	
+
 	"CFriendsDialog SectionedlistpanelCollapser:selected"
     {
 		image="graphics/Threshold/icons/down"
-    } 
-    
+    }
+
     SectionedListPanelCollapser:selected:hover
     {
 		image="graphics/Threshold/icons/down_hover"
     }
-	
+
 	"CFriendsDialog SectionedListPanelCollapser:selected:hover"
     {
 		image="graphics/Threshold/icons/down_hover"
     }
-  
+
     Slider //XXX: ??? I guess these are in settings?
     {
 		font-family=basefont
@@ -2051,12 +2051,12 @@ steam.styles
 		textcolor=SubLabel.Text
 		//font-style=uppercase
     }
-      
+
     Slider:focus
     {
-		textcolor=Label.Text 
+		textcolor=Label.Text
     }
-    
+
     StatusLabel
     {
 		font-family=basefont
@@ -2064,9 +2064,9 @@ steam.styles
 		font-size=15
 		font-weight=400
 		textcolor=Label.Text
-		font-style=normal   
+		font-style=normal
     }
-    
+
     StatusLabelDim
     {
 		font-family=basefont
@@ -2074,7 +2074,7 @@ steam.styles
 		font-size=13
 		font-weight=400
 		textcolor=SubLabel.Text
-		font-style=normal   
+		font-style=normal
     }
 
     TextEntry
@@ -2099,9 +2099,9 @@ steam.styles
 			1="fill( x0, y1 - 2, x1, y1, TextBox.Outline )"  // bottom
 			2="fill( x0, y0, x0 + 2, y1, TextBox.Outline )"  // left
 			3="fill( x1 - 2, y0, x1, y1, TextBox.Outline )"  // right
-		}     
+		}
     }
-    
+
 	"Page TextEntry"
     {
 		bgcolor=TextBox.Back
@@ -2112,9 +2112,9 @@ steam.styles
 			1="fill( x0, y1 - 2, x1, y1, TextBox.Outline )"  // bottom
 			2="fill( x0, y0, x0 + 2, y1, TextBox.Outline )"  // left
 			3="fill( x1 - 2, y0, x1, y1, TextBox.Outline )"  // right
-		}      
+		}
     }
-	
+
 	TextEntry:hover
 	{
 		textcolor=TextBox.Hover.Text
@@ -2127,7 +2127,7 @@ steam.styles
 			3="fill( x1 - 2, y0, x1, y1, TextBox.Outline.Hover )"  // right
 		}
 	}
-	
+
 	"Page TextEntry:hover"
 	{
 		textcolor=TextBox.Hover.Text
@@ -2140,9 +2140,9 @@ steam.styles
 			3="fill( x1 - 2, y0, x1, y1, TextBox.Outline.Hover )"  // right
 		}
 	}
-    
+
     TextEntry:focus //Active
-    {     
+    {
 		textcolor=TextBox.Active.Text
 		shadowtextcolor=TextBox.Active.Cursor
 		bgcolor=TextBox.Active
@@ -2153,11 +2153,11 @@ steam.styles
 			1="fill( x0, y1 - 2, x1, y1, TextBox.Outline.Active )"  // bottom
 			2="fill( x0, y0, x0 + 2, y1, TextBox.Outline.Active )"  // left
 			3="fill( x1 - 2, y0, x1, y1, TextBox.Outline.Active )"  // right
-		}     
+		}
     }
-       
+
     "Page TextEntry:focus"
-    {     
+    {
 		textcolor=TextBox.Active.Text
 		shadowtextcolor=TextBox.Active.Cursor
 		bgcolor=TextBox.Active
@@ -2168,12 +2168,12 @@ steam.styles
 			1="fill( x0, y1 - 2, x1, y1, TextBox.Outline.Active )"  // bottom
 			2="fill( x0, y0, x0 + 2, y1, TextBox.Outline.Active )"  // left
 			3="fill( x1 - 2, y0, x1, y1, TextBox.Outline.Active )"  // right
-		}      
+		}
     }
-    
-    
+
+
     TextEntry:disabled
-    {     
+    {
 		textcolor=TextBox.Disabled.Text
 		bgcolor=TextBox.Back
 		render
@@ -2183,9 +2183,9 @@ steam.styles
 			1="fill( x0, y1 - 2, x1, y1, TextBox.Outline )"  // bottom
 			2="fill( x0, y0, x0 + 2, y1, TextBox.Outline )"  // left
 			3="fill( x1 - 2, y0, x1, y1, TextBox.Outline )"  // right
-		}     
+		}
     }
-    
+
 	// The 'empty' style is used for 'hint text' in text entry fields.
 	// If the text box does not have focus and does not have content, a
 	// hint text property will be shown with this style. This is comment
@@ -2195,7 +2195,7 @@ steam.styles
 		font-style=italic
 		textcolor=TextBox.Disabled.Text
 	}
-	
+
     TextEntryLarge //Used for password on login screen
     {
 		font-family=basefont
@@ -2216,11 +2216,11 @@ steam.styles
 			1="fill( x0, y1 - 2, x1, y1, TextBox.Outline )"  // bottom
 			2="fill( x0, y0, x0 + 2, y1, TextBox.Outline )"  // left
 			3="fill( x1 - 2, y0, x1, y1, TextBox.Outline )"  // right
-		}   
+		}
     }
 
     TextEntryLarge:hover
-    {     
+    {
 		textcolor=TextBox.Hover.Text
 		render
 		{
@@ -2229,11 +2229,11 @@ steam.styles
 			1="fill( x0, y1 - 2, x1, y1, TextBox.Outline.Hover )"  // bottom
 			2="fill( x0, y0, x0 + 2, y1, TextBox.Outline.Hover )"  // left
 			3="fill( x1 - 2, y0, x1, y1, TextBox.Outline.Hover )"  // right
-		} 
+		}
     }
-	
+
 	TextEntryLarge:focus
-    {     
+    {
 		textcolor=TextBox.Active.Text
 		shadowtextcolor=TextBox.Active.Cursor
 		bgcolor=TextBox.Active
@@ -2244,11 +2244,11 @@ steam.styles
 			1="fill( x0, y1 - 2, x1, y1, TextBox.Outline.Active )"  // bottom
 			2="fill( x0, y0, x0 + 2, y1, TextBox.Outline.Active )"  // left
 			3="fill( x1 - 2, y0, x1, y1, TextBox.Outline.Active )"  // right
-		}  
+		}
     }
-    
+
     TextEntryLarge:disabled
-    {     
+    {
 		textcolor=TextBox.Disabled.Text
 		render
 		{
@@ -2257,9 +2257,9 @@ steam.styles
 			1="fill( x0, y1 - 2, x1, y1, TextBox.Outline )"  // bottom
 			2="fill( x0, y0, x0 + 2, y1, TextBox.Outline )"  // left
 			3="fill( x1 - 2, y0, x1, y1, TextBox.Outline )"  // right
-		}  
+		}
     }
-    
+
     TextEntryURL
 	{
 		font-family=basefont
@@ -2273,7 +2273,7 @@ steam.styles
 		shadowtextcolor=DefaultCursor	// this is the cursor color
 		inset-left=0
 		inset-top=-1
-		render { }			
+		render { }
 	}
 
 	TextEntryURL:Hover
@@ -2282,9 +2282,9 @@ steam.styles
 		render
 		{
 
-		}			
+		}
 	}
-	
+
 	ToggleButton
     {
 		inset="1 0 0 0"
@@ -2298,12 +2298,12 @@ steam.styles
 		{
 		}
     }
-    
+
     ToggleButton:hover
     {
 		textcolor=Button.Hover.Text
 		render_bg
-		{     
+		{
 			// background fill
 			0="fill( x0, y0, x0+2, y1, Button.Hover)"
 			1="fill( x1-2, y0, x1, y1, Button.Hover)"
@@ -2311,7 +2311,7 @@ steam.styles
 			3="fill( x0, y1-2, x1, y1, Button.Hover)"
 		}
     }
-    
+
     ToggleButton:selected
     {
 		textcolor=Button.Active.Text
@@ -2320,8 +2320,8 @@ steam.styles
 		{
 		}
     }
-  
-    
+
+
     "Page ToggleButton"
     {
 		font-family=basefont
@@ -2334,7 +2334,7 @@ steam.styles
 		{
 		}
     }
-    
+
     "Page ToggleButton:hover"
     {
 		textcolor=Button.Hover.Text
@@ -2346,7 +2346,7 @@ steam.styles
 			4="fill( x0, y1-2, x1, y1, Button.Page.Hover)"
 		}
     }
-   
+
     "Page ToggleButton:selected"
     {
 		textcolor=Button.Active.Text
@@ -2355,7 +2355,7 @@ steam.styles
 		{
 		}
     }
-    
+
     // the background and frame of a tooltip
     TooltipWindow
     {
@@ -2378,7 +2378,7 @@ steam.styles
 		padding-left=4
         textcolor=Label.Text
     }
-    
+
     // headline text inside a tooltip
    	tooltip_headline
    	{
@@ -2387,28 +2387,28 @@ steam.styles
    		padding-left=4
 		textcolor=Accent
    	}
-   	
+
     TreeNode
     {
 		bgcolor=none
 		render_bg {}
     }
-    
+
     TreeNodeImage
     {
 		bgcolor=none
     }
-    
+
     TreeViewSubPanel
     {
 		bgcolor=none
     }
-  
+
     TreeNodeText
     {
 		font-family=basefont
 		font-size=13
-		font-size=15 
+		font-size=15
 		textcolor=DefaultText
 		selectedtextcolor=DefaultText.Selected
 		selectedbgcolor=DefaultText.Back
@@ -2416,14 +2416,14 @@ steam.styles
 		render {}
 		render_bg {}
     }
-  
+
     TreeView //File list
     {
 		render_bg
 		{
 		}
     }
-    
+
     URLLabel
     {
 		textcolor=URL.Text
@@ -2436,12 +2436,12 @@ steam.styles
 		selectedtextcolor=DefaultText.Selected
 		selectedbgcolor=DefaultText.Back
     }
-    
+
    	URLLabel:Hover
 	{
 		textcolor=URL.Hover.Text
 	}
-		
+
 	URLLabelSimple
     {
 		textcolor=URL.Text
@@ -2454,13 +2454,13 @@ steam.styles
 		selectedtextcolor=DefaultText.Selected
 		selectedbgcolor=DefaultText.Back
     }
-    
+
 	URLLabelSimple:Hover
     {
 		font-style=underline
 		textcolor=URL.Hover.Text
-    }  
-    
+    }
+
 	URLLabelSimple2
     {
 		textcolor=URL.Text
@@ -2473,13 +2473,13 @@ steam.styles
 		selectedtextcolor=DefaultText.Selected
 		selectedbgcolor=DefaultText.Back
     }
-    
+
 	URLLabelSimple2:Hover
     {
 		textcolor=URL.Hover.Text
-    }  
+    }
 
-    
+
     // Steam-specific styles
     CConsoleHistory
     {
@@ -2490,30 +2490,30 @@ steam.styles
 		textcolor=DefaultText
 		selectedtextcolor=DefaultText
 		bgcolor=Root.Back
-      
+
 		render
 		{
 		}
-		render_bg 
+		render_bg
 		{
 		}
     }
-    
+
     GameColumnHeaderFavorites
     {
 		image="graphics/Threshold/icons/fav_remove"
     }
-    
+
     CGamesListFavoritesToggle
     {
 		image="graphics/Threshold/icons/fav_addTo"
     }
-    
+
     CGamesListFavoritesToggle:hover
     {
 		image="graphics/Threshold/icons/fav_addTo_ovr"
     }
-    
+
     CGamesListFavoritesToggle:selected
     {
 		image="graphics/Threshold/icons/fav_remove"
@@ -2537,9 +2537,9 @@ steam.styles
 		bgcolor=none
 		inset="1 -1 1 1"
 		render_bg {
-        }  
+        }
     }
-	
+
     FullscreenButton
     {
 		bgcolor=none
@@ -2553,18 +2553,18 @@ steam.styles
     {
 		image="graphics/Threshold/window_controls/fullscreen"
     }
-	
+
     FullscreenButton:hover
     {
 		image="graphics/Threshold/window_controls/fullscreen"
 		bgcolor="TitleBar.Hover"
     }
-	
+
     FullscreenButton:active
     {
 		bgcolor="TitleBar.Active"
     }
-	
+
     FullscreenButton:disabled
     {
 		bgcolor=none
@@ -2572,7 +2572,7 @@ steam.styles
 		render_bg={}
 		image=none
     }
-    
+
     VRButton
     {
 		inset="-10 0 0 0"
@@ -2580,25 +2580,25 @@ steam.styles
 		render_bg={}
 		render={}
 		image="graphics/Threshold/vr"
-    }  
+    }
 
     VRButton:hover
     {
 		bgcolor=Menu.Hover
     }
-	
+
     VRButton:active
     {
 		bgcolor=Menu.Hover
     }
-	
+
     VRButton:disabled
     {
 		bgcolor=none
 		render_bg={}
 		image="none"
     }
-    
+
     VRButtonExit
     {
 		inset="-10 0 0 0"
@@ -2606,106 +2606,106 @@ steam.styles
 		render_bg={}
 		render={}
 		image="graphics/Threshold/vr"
-    }  
+    }
 
     VRButtonExit:hover
     {
 		bgcolor=Menu.Hover
     }
-	
+
     VRButtonExit:active
     {
 		bgcolor=Menu.Hover
     }
-	
+
     VRButtonExit:disabled
     {
 		bgcolor=none
 		image="none"
     }
-	
+
 	BackButton
     {
 		bgcolor=none
 		inset="0 0 0 0"
 		image="graphics/Threshold/back"
     }
-	
+
     BackButton:hover
     {
 		bgcolor=none
 		image="graphics/Threshold/back"
     }
-	
+
     BackButton:active
     {
 		bgcolor=Button.Active
 		image="graphics/Threshold/back"
     }
-	
+
     BackButton:disabled
     {
 		bgcolor=none
 		image="graphics/Threshold/back_dis"
     }
-    
+
     ForwardButton
     {
 		bgcolor=none
 		inset="0 0 0 0"
 		image="graphics/Threshold/forward"
     }
-    
+
     ForwardButton:hover
     {
 		bgcolor=none
 		image="graphics/Threshold/forward"
     }
-	
+
     ForwardButton:active
     {
 		bgcolor=Button.Active
 		image="graphics/Threshold/forward"
     }
-	
+
     ForwardButton:disabled
     {
 		bgcolor=none
 		image="graphics/Threshold/forward_dis"
     }
-    
+
     HomeButton
     {
 		bgcolor=none
 		inset="1 0 0 0"
 		image="graphics/Threshold/home"
     }
-    
+
     HomeButton:hover
     {
 		bgcolor=none
 		image="graphics/Threshold/home"
     }
-	
+
     HomeButton:active
     {
 		bgcolor=Button.Active
 		image="graphics/Threshold/home"
     }
-	
+
     HomeButton:disabled
     {
 		bgcolor=none
 		image="graphics/Threshold/home"
     }
-	
+
     ReloadButton
     {
 		bgcolor=none
 		inset="1 0 0 0"
 		image="graphics/Threshold/reload"
     }
-    
+
     ReloadButton:hover
     {
 		bgcolor=none
@@ -2723,14 +2723,14 @@ steam.styles
 		bgcolor=none
 		image="graphics/Threshold/reload"
     }
-    
+
     StopButton
     {
 		bgcolor=none
 		inset="1 0 0 0"
 		image="graphics/Threshold/stop"
     }
-    
+
     StopButton:hover
     {
 		bgcolor=none
@@ -2748,7 +2748,7 @@ steam.styles
 		bgcolor=none
 		image="graphics/Threshold/stop"
     }
-	
+
 	"html-findbar"
  	{
 		font-family=basefont
@@ -2762,7 +2762,7 @@ steam.styles
 		shadowtextcolor=DefaultCursor	// this is the cursor color
 		inset-left=0
 		inset-top=0
-		
+
 		render
 		{
 			// lines around
@@ -2770,10 +2770,10 @@ steam.styles
 			1="fill( x0, y1 - 1, x1, y1, Menu.Outline )"  // bottom
 			2="fill( x0, y0, x0 + 1, y1, Menu.Outline )"  // left
 			3="fill( x1 - 1, y0, x1, y1, Menu.Outline )"  // right
-		}     	
+		}
 	}
-		
- 	"html-imebar" 
+
+ 	"html-imebar"
  	{
 		font-family=basefont
 		font-size=13 [$LINUX]
@@ -2786,7 +2786,7 @@ steam.styles
 		shadowtextcolor=DefaultCursor	// this is the cursor color
 		inset-left=0
 		inset-top=0
-		
+
 		render
 		{
 		    // lines around
@@ -2794,9 +2794,9 @@ steam.styles
 			1="fill( x0, y1 - 1, x1, y1, Menu.Outline )"  // bottom
 			2="fill( x0, y0, x0 + 1, y1, Menu.Outline )"  // left
 			3="fill( x1 - 1, y0, x1, y1, Menu.Outline )"  // right
-		}     	
+		}
 	}
-      
+
 	gamedetails-headerlabel
 	{
 		font-size=16 [$LINUX]
@@ -2816,7 +2816,7 @@ steam.styles
 		font-weight=400
 		textcolor="Accent"
 	}
- 	
+
 	gamedetails-headerlabel-green
 	{
 		font-size=16 [$LINUX]
@@ -2836,9 +2836,9 @@ steam.styles
 		font-family=semilight
 		font-weight=400
 	}
-	
+
 	// styles for text used in RichText controls in various places
-	
+
 	console_text_error
 	{
 		textcolor="Accent"
@@ -2848,7 +2848,7 @@ steam.styles
 		selectedtextcolor=DefaultText.Selected
 		selectedbgcolor=DefaultText.Back
 	}
-	
+
 	console_text
 	{
  		font-family="Lucida Console"
@@ -2859,7 +2859,7 @@ steam.styles
 		selectedtextcolor=DefaultText.Selected
 		selectedbgcolor=DefaultText.Back
 	}
-	
+
 	friends_chat_text //TODO: Chat text colors
 	{
 		textcolor="DefaultText"
@@ -2868,7 +2868,7 @@ steam.styles
 		font-size=13 [$LINUX]
 		font-size=15
 	}
-	
+
 	friends_chat_text_self
 	{
 		textcolor="ChatOwnTextColor"
@@ -2886,7 +2886,7 @@ steam.styles
 		font-size=13 [$LINUX]
 		font-size=15
 	}
-	
+
 	friends_chat_event
 	{
 		textcolor="DefaultText"
@@ -2915,12 +2915,12 @@ steam.styles
 		selectedtextcolor=DefaultText.Selected
 		selectedbgcolor=DefaultText.Back
 	}
-	
+
 	friends_chat_url:hover
 	{
 		textcolor=URL.Hover.Text
 	}
-	
+
 	friends_chat_name_ingame
 	{
 		textcolor="Friends.InGameColor"
@@ -2939,7 +2939,7 @@ steam.styles
 		font-size=15
 	}
 
-	
+
 	friends_chat_self
 	{
 		textcolor="Friends.OnlineColor"
@@ -2948,7 +2948,7 @@ steam.styles
 		font-size=13 [$LINUX]
 		font-size=15
 	}
-	
+
 	friends_chat_name
 	{
 		textcolor="Friends.OnlineColor"
@@ -2957,7 +2957,7 @@ steam.styles
 		font-size=13 [$LINUX]
 		font-size=15
 	}
-	
+
 	friends_chat_accountid
 	{
 		selectedtextcolor=DefaultText.Selected
@@ -2966,7 +2966,7 @@ steam.styles
 		font-size=13 [$LINUX]
 		font-size=15
 	}
-	
+
 	friends_chat_securitylink
 	{
 		textcolor="DefaultText"
@@ -2979,27 +2979,27 @@ steam.styles
 		selectedtextcolor=DefaultText.Selected
 		selectedbgcolor=DefaultText.Back
 	}
-	
+
 	friends_chat_securitylink:Hover
 	{
 		textcolor="DefaultText.Hover"
 	}
-	
+
 	CChatRoomDlg //TODO: Here lies (some) chat window things. May god have mercy on your soul
-	{			
+	{
 		bgcolor=DefaultBackground
 
 		render
 		{
 		}
 		render_bg
-		{	
+		{
 		}
 
 	}
-		
+
 	ChatListPanel
-	{	
+	{
 		bgcolor=Chat.Back
 		render {}
 
@@ -3007,7 +3007,7 @@ steam.styles
 		{
 		}
 	}
-		
+
 	Chat_MenuButton_withChrome
 	{
 		font-family=basefont
@@ -3018,45 +3018,45 @@ steam.styles
 		textcolor=DefaultText
 		bgcolor=Button.Back
 		minimum-width=120
-		render_bg 
-		{          
+		render_bg
+		{
 		}
 	}
-	
+
 	Chat_MenuButton_withChrome:disabled
 	{
 		textcolor=DefaultText.Disabled
 		render_bg
 		{
 		}
-    }    
-    
+    }
+
    	// used in friends tooltip and friends list for overriding regular styles with custom colors
    	friends_offline
    	{
    		textcolor="Friends.OfflineColor"
    	}
-   	
+
     friends_offline:hover
    	{
    		textcolor="Friends.OfflineHoverColor"
    	}
-   	
+
    	friends_online
    	{
    		textcolor="Friends.OnlineColor"
    	}
-   	
+
    	friends_online:hover
    	{
    		textcolor="Friends.OnlineHoverColor"
    	}
-   	
+
    	friends_ingame
    	{
    		textcolor="Friends.InGameColor"
    	}
-   	   	
+
    	friends_ingame:hover
    	{
    		textcolor="Friends.InGameHoverColor"
@@ -3066,18 +3066,18 @@ steam.styles
    	{
    		textcolor="Friends.GoldenColor"
    	}
-   	   	
+
    	friends_golden:hover
    	{
    		textcolor="Friends.GoldenHoverColor"
    	}
-   	
+
    	friends_ignored
    	{
    		textcolor="Friends.IgnoredColor"
    	}
 
-   	
+
    	TabPageCloseButton
    	{
    		padding-right=16
@@ -3138,17 +3138,17 @@ steam.styles
 			//1="fill( x0+6, y0+1, x1-6, y0+2, Menu.Div )"
 		}
 	}
-	
+
 	"NotifyRemoteClientTitle" //XXX:??
 	{
 		textcolor="DefaultText"
 	}
-	
+
 	"NotifyRemoteClientInfo"
 	{
 		textcolor="176 172 165 255"
 	}
-	
+
 	//Special window styling for older frames
 	CGamePropertiesDialog
 	{
@@ -3156,21 +3156,21 @@ steam.styles
 			0="fill(x0, y0, x1, y0+64, Page.Tab)"
 		}
 	}
-	
+
 	CServerBrowserDialog
 	{
 		render_bg {
 			0="fill(x0, y0, x1, y0+64, Page.Tab)"
 		}
 	}
-	
+
 	CInternetGames
 	{
 		render_bg {
 			0="fill(x0, y0, x1, y1 - 42, Page.Tab)"
 		}
 	}
-	
+
 	COverlaySettingsDialog
 	{
 		render_bg {
@@ -3184,6 +3184,6 @@ steam.styles
 			0="fill(x0, y0, x1, y0+64, Page.Tab)"
 		}
 	}
-	
+
   }
 }
