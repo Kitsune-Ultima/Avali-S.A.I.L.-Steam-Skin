@@ -89,10 +89,10 @@ steam.styles
 	ComboBox.Text=DefaultText
 	ComboBox.Disabled.Text="110 110 110 255"
 
-	Scroll.Back="27 27 27 255"
-	Scroll.Bar.Back="73 73 73 255"
-	Scroll.Bar.Hover="118 118 118 255"
-	Scroll.Bar.Active="164 164 164 255"
+	Scroll.Back="28 13 0 255"
+	Scroll.Bar.Back="74 42 0 255"
+	Scroll.Bar.Hover="118 63 0 255"
+	Scroll.Bar.Active="164 87 0 255"
 	Scroll.Button.Back=Scroll.Back
 	Scroll.Button.Hover=Scroll.Bar.Hover
 	Scroll.Button.Active=Scroll.Bar.Active
